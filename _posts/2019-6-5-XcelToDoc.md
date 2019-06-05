@@ -5,11 +5,11 @@ title: Age old Excel to Doc converter but OFFLINE!
 
 
 
-![_config.yml]({{ site.baseurl }}/images/AcclaimedDarlingBull.gif)
+![_config.yml]({{ site.baseurl }}/images/meraCanadianKumar.gif)
 
 
 Offline? Seriously?  
-  
+
 If someone asks you that they want to convert an excel document to a doc version, they will tell you about the infinite converters available online.  
 
 But, what if you don't want your excel data to an online site?  
