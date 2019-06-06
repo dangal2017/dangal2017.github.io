@@ -40,10 +40,13 @@ Also, just like the the formatting for paras and headings, table formatting is c
 Font - Arial   
 Font size - 10  
 First row of table - Bold  
-Auto width table cell set to distribute  
+
+Again, You can change them in the script very easily.  
+
+Auto width table cell set to True.  
 
 Even though autofit fits to page width for a few tables but for most tables it doesn't. Need to fix this. Mostly will be fixed in a later version.
-
+  
 Also, don't forget to remove any formulas, currently it prints what the formula is, though it should fill the value in the cell after the formula is applied. Mostly will be fixed in next version.  
 
 Thus, the steps to using xcelToDoc are as follows:  
