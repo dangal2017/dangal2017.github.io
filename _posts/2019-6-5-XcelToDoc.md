@@ -48,7 +48,7 @@ Auto width for a table cell is set to True.
 Even though autofit fits to page width for a few tables but for most tables it doesn't. Need to fix this. It will be fixed in a later version.  
 
 Also, don't forget to remove any formulas, currently it prints what the formula is, though it should fill the value in the cell after the formula is applied. It will be fixed in next version.    
-  
+
 Thus, the steps to using xcelToDoc are as follows:  
 
 Step : 1 Make the input excel in a format that our script understands, as illustrated above  
@@ -69,6 +69,8 @@ Step : 4 A UI opens after you run the script in step 2. Input your master excel 
 Step : 5 Click on "Get updated doc" button to get updated doc. The updated doc gets stored in the same folder as created in step 2.  
 
 Pay heed to the exception messages printed on the UI. They are important to catch any errors that occurred during the conversion.  
+
+For a really big excel containing more than 5 sheets, the UI unfortunately hangs and it shows Not responding. For a 10 sheet workbook, the time the script took was easily 90 seconds, seems a lot for something a computer does, but isn't it atleast better than manually making the doc? :)
 
 As with every software or script, this script might have bugs which are not yet reported or found. Please Quality check your work twice before sending out to any one else. This script is protected under the MIT license.    
 
