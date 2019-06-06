@@ -12,9 +12,9 @@ Offline? Seriously?
 
 If someone asks you that they want to convert an excel document to a doc version, they will tell you about the infinite converters available online.  
 
-But, what if you don't want your excel data to an online site?  
+But, what if you don't want to share your excel data to an online site?  
 
-Then XcelToDoc does all the same conversion but offline. Sounds all rosy, but it doesn't actually does it without any manual effort like those sophisticated online ones.  
+Then XcelToDoc does all the same conversion but offline. Sounds all rosy, but it doesn't actually does it without any manual effort like those sophisticated online ones. :(   
 
 It requires manual effort in adding tags in your input excel telling where a para or a heading or a table starts.  
 
@@ -31,7 +31,7 @@ A table however isn't this simple. You need to indicate 3 tags:
 
 "TS" - indicating start of a table, in the cell before the start of first row  
 "TRE" - indicating end of the rows of a table, in the cell before the start of last row  
-"TS" - indicating end of the columns of a table, in the cell after the end of first columns  
+"TS" - indicating end of the columns of a table, in the cell after the end of first column  
 
 Find a dummy excel file xcelToDoc.xlsx in the github repository, illustrating how to add these tags.  
 
@@ -41,14 +41,14 @@ Font - Arial
 Font size - 10  
 First row of table - Bold  
 
-Again, You can change them in the script very easily.  
+Again, you can change them in the script very easily!    
 
-Auto width table cell set to True.  
+Auto width for a table cell is set to True.  
 
-Even though autofit fits to page width for a few tables but for most tables it doesn't. Need to fix this. Mostly will be fixed in a later version.
+Even though autofit fits to page width for a few tables but for most tables it doesn't. Need to fix this. It will be fixed in a later version.  
+
+Also, don't forget to remove any formulas, currently it prints what the formula is, though it should fill the value in the cell after the formula is applied. It will be fixed in next version.    
   
-Also, don't forget to remove any formulas, currently it prints what the formula is, though it should fill the value in the cell after the formula is applied. Mostly will be fixed in next version.  
-
 Thus, the steps to using xcelToDoc are as follows:  
 
 Step : 1 Make the input excel in a format that our script understands, as illustrated above  
